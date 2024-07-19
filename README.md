@@ -1,4 +1,4 @@
-# Website Health Checker with Golang! ![Banner](./assets/images/golang-mascot.svg)
+# Website Health Checker with Golang! ![Banner](./assets/images/go.ico)
 
 
 #### **🌐✅Site Health Checker** is a simple, fun tool that checks a website health utilizing [Go](https://go.dev/) and the [cli package](https://pkg.go.dev/github.com/urfave/cli/v2)
