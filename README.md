@@ -1,27 +1,17 @@
 # Website Health Checker with Golang!
 
-![Banner](./assets/images/banner.png)
 
-#### This project utilizes [Go](https://go.dev/) to build a load balancer and [http util package](https://pkg.go.dev/net/http/httputil) for a proxy server. 
-⚖️**Load Balancer** is a powerful a program that distributes incoming network traffic across multiple servers to ensure no single server becomes overwhelmed.
-
-🔄**Reverse Proxy** acts as an intermediary for requests from clients seeking resources from servers, helping with load distribution, security, and caching.
-
-## Reverse Proxy Role
-
-![Proxy Server](./assets/images/proxy-plan.png)
+#### **Site Health Checker** is a simple, fun tool that checks a website health utilizing [Go](https://go.dev/) and the [cli package](https://pkg.go.dev/github.com/urfave/cli/v2)
 
 
-## Program plan
+![Banner](./assets/images/program-plan.png)
 
-For simplicity, round robin is the algorithm of choice for this load balancer
+#### The main function passes a site domain to and port number to a Check function which return the status of the site as either down or up.
 
-This program utilizes Go structs for creating load balancer and proxy server 
+#### THe status of the site is determine by a timeout of 5 seconds 
 
-![Program Plan](./assets/images/program-plan.png)
+#### The port number is assumed to be 80 where in a site's port number is not provided 
 
 
-Main function
-![Main Function](./assets/images/main-function.png)
 
 
